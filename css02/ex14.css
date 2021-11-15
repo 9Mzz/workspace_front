@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+ol>li {list-style-type: none;
+    float: left;
+    }
+
+
+
+ol>li:after {content: ">";
+            padding: 0px 5px 0px 5px;
+    }
+ol>li.list:after {content: "";
+    }

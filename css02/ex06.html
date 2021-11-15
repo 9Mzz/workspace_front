@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+
+            * {margin: 0px;
+                padding: 0px;}
+
+            .box {
+                border: 1px solid #000000;
+                border-radius: 10px;
+                width: 90px;
+                text-align: center;
+                padding: 5px 0px 5px 0px;
+                cursor:pointer
+            }
+
+            .reviser {
+                width: 100px;
+                height: 50px;
+                background-color: #00ffff;
+                border: 1px solid #000000;
+                border-radius: 5px;
+                text-align: center;
+                display: table-cell;
+                vertical-align:middle;
+            }
+
+            .b {
+                width: 100px;
+                background-color: #bfbfbf;
+                border: 1px solid #000000;
+                border-radius: 5px;
+                padding: 5px 5px 5px 5px;
+                text-align: center;
+            }
+            .login {
+                border: 1px solid #000000;
+                background-color: #f00;
+                width: 180px;
+                height: 50px;
+                display: inline-block;
+                padding: 5px 5px 5px 5px;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+
+
+            .saver {
+                background-color: #bfbfbf;
+            }
+            .deleter {
+                background-color: #ff0000;
+            }
+            .reviser {
+                background-color: #0000ff;
+            }
+
+
+            .saver:hover {background-color: #00ff00}
+            .deleter:hover {background-color: #000000;}
+            .reviser:hover {background-color: #ff0000;}
+            .bn:hover {background-color: #00ffff;}
+
+        </style>
+    </head>
+
+    <body>
+        <div class="box saver">
+            저장버튼
+        </div>
+        <div class="box deleter">
+            삭제버튼
+        </div>
+        <div class="reviser">
+            수정버튼
+        </div>
+        <button class="bn" type="submit">저장버튼</button><br>
+        <a class="login" href="">로그인 페이지로 이동</a>
+
+
+    </body>
+
+</html>

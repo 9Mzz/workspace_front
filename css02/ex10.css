@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+
+* {margin: 0px;   padding: 0px;
+}
+.box-red {margin: 10px 20px 30px 40px;
+        background-color: #ff0000;}
+
+/* 맨 위부터 시계방향대로, 위 오른쪽 아래 왼쪽 순서 */
+/* 두개만 쓸 경우 상하, 좌우 순서 */
+/* margin은 둘 중 큰값만 인식함. 위 bot 10px, 아래 top 50px하면 50px */
+.box-blue {margin:10px 20px 30px 40px;
+        padding: 50px 70px;
+        width: 300px; background-color: #0000ff;}

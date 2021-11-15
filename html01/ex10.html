@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>html15</title>
+    </head>
+    <body>
+        <p>목차</p>
+            <ol>
+                <li><a href="../Html01/ex01.html" target="_self">h1~h6태그</li></a>
+                <li><a href="C:\javaStudy\workspace_front\Html01\ex02.html" target="_self">p, br, hr, strong, em 태그</a></li>
+                <li><a href="../Html01/ex03.html" target="_self">ol, ul 태그</a></li>
+                <li><a href="C:\javaStudy\workspace_front\Html01\ex04.html" target="_Self">img, a 태그</a></li>
+                <li><a href="../Html01/ex05.html" target="_self">table,th, tr, td 연습</a></li>
+                <li><a href="../Html01/ex06.html" target="_self">테이블 합치기</a></li>
+                <li><a href="../Html01/ex07.html" target="_self">thead tbody tfoot 연습</li>
+                <li><a href="../Html01/ex08.html" target="_self">thead, tbody, tfoot, col style 연습</a></li>
+                <li><a href="../Html01/ex09_resume.html" target="_self">이력서 만들기</a></li>
+                <li><a href="../Html01/ex10.html" target=_self>input tag 연습</a></li>
+            </ol>
+<hr>
+        <h1>html 기본태그</h1>
+        <h2>input tag</h2>
+<hr>
+        <form action="" method="get">
+            <label for="u-id">아이디</label>
+            <input id="u-id" type="text" name="uid" value="" placeholder="아이디를 입력하세요"><br>
+            
+            <label for="u-pw">비밀번호</label>
+            <input id="u-pw" type="password" name="upw" value="" placeholder="비밀번호를 입력하세요"><br>
+            <button type="submit">저장</button>
+            <button type="reset">초기화</button><br>  
+            <input type="file" name="file" value=""><br>
+<hr>
+            <label for="chk-book">독서</label>
+            <input id="chk-book" type="checkbox" name="hobby" value="book"><br>
+
+            <label for="chk-music">음악</label>
+            <input id="chk-music" type="checkbox" name="hobby" value="music"><br>
+
+            <label for="chk-trip">여행</label>
+            <input id="chk-trip" type="checkbox" name="hobby" value="trip" checked="checked"><br>
+<hr>
+            <label for="chk-dog">개</label>
+            <input id="chk-dog" type="checkbox" name="pet" value="dog"><br>
+            <label for="chk-cat">고양이</label>
+            <input id="chk-cat" type="checkbox" name="pet" value="cat"><br>
+            <label for="chk-bird">새</label>
+            <input id="chk-bird" type="checkbox" name="pet" value="bird" checked="checked"><br>
+<hr>
+            <label for="rdo-apple">사과</label>
+            <input id="rdo-apple" type=radio name="fruit" value="apple"><br>
+            <label for="rdo-grape">포도</label>
+            <input id="rdo-grape" type="radio" name="fruit" value="grape"><br>
+            <label for="rdo-orange">오렌지</label>
+            <input id="rdo-orange" type="radio" name="fruit" value="orange"><br>
+<hr>
+            <label for="m1">1월</label>
+            <input id="m1" type="radio" name="month" value="1"><br>
+            <label for="m2">2월</label>
+            <input id="m2" type="radio" name="month" value="2"><br>
+            <label for="m3">3월</label>
+            <input id="m3" type="radio" name="month" value="3"><br>
+<hr>
+            <select name="telecom">
+                <option value="" selected="selected">이동통신사를 선택해 주세요</option>
+                <option value="skt">SKT</option>
+                <option value="ktf">KTF</option>
+                <option value="lg">LG</option>
+                <option value="et">ETC</option>
+            </select>
+<br>
+<br>
+            <textarea name="content">안녕하세요</textarea>
+
+
+<br>
+            <button type="submit">저장</button>
+
+
+        <!--
+        name=태그는 이름이 아니라 속성
+        type="hidden은 값은 넣어지나 보여지는곳"-->
+        <!-- 추천하지 않음 -->
+        <!-- <input type="button" value="저장"> -->
+        <!-- type=, name="uid" value="값" 순서대로 -->
+        <!-- label for="" > input in=""  -->
+        
+        
+        <!--<input type="text"><br>
+        <input type="password"><br>
+        <input type="file"><br>
+        <input type="radio"><br>
+        <input type="checkbox"><br>
+        <input type="hidden"><br>
+        <input type="month"><br>
+        <input type="date"><br>
+        <input type="number"><br>-->
+
+
+    </body>
+
+</html>

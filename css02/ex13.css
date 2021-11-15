@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+
+ol>li {
+    float: left;
+    background: #fff url(././img/star.jpg) no-repeat left center scroll;
+    background-size: 11px 11px;
+    margin: 0px 30px 0px 0px;
+    padding: 0px 30px 0px 10px;
+    border-right: 5px solid #000;
+    }
+
+ol>li.last {list-style-type: none;}
+
+ol {
+    list-style-type: none;}

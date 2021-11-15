@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/* 전체 공통 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr, 
+textarea, button, form {
+    margin: 0; padding: 0;
+}
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+ul li {
+    list-style-type: none;
+}
+
+a:link {text-decoration: none; color: #000000;}
+a:visited {text-decoration: none; color: #000000;}
+a:active {text-decoration: none; color: #000000;}
+a:hover {text-decoration: none; color: #000000;}
+
+
+#wrap {
+    width: 1000px;
+    margin: 0px auto;
+}
+/* 헤더영역 */
+#wrap #header h1 {
+    float: left;
+    font-size: 35px;
+    margin: 10px 0px 5px 3px;
+}
+#wrap #header ul {
+    float: right;
+}
+#wrap #header ul li {
+    border: 1px solid #bfbfbf;
+    margin: 30px 5px 10px 10px;
+    padding: 3px 5px 3px 5px;
+    float: left;
+}
+/* 헤더영역 */
+/* nav영역 */
+#wrap #nav {
+    float: left;
+}
+#wrap #nav ul li {
+    float: left;
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px;
+    border-top: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+}
+
+/* nav영역 */
+/* contents영역 */
+/* 목록 */
+#wrap #contents #aside {
+    float: left;
+    padding: 0px 0px;
+    margin: 10px 10px 0px 0px;
+}
+
+#wrap #contents #aside  h2 {
+    background-color: #bfbfbf;
+    padding: 25px 70px;
+    text-align: center;
+}
+
+#wrap #contents #aside ul li {
+    font-size: 18px;
+    border: 1px solid #bfbfbf;
+    padding: 15px 0px 15px 10px;
+    margin: 5px 0px 5px 0px;
+
+}
+/* 목록 */
+/* 로그인바 */
+#wrap #contents #bside {
+    float: left;
+    width: 790px;
+    border-bottom: 1px solid #000;
+    margin: 10px 0px;
+}
+
+#wrap #contents #bside h3 {
+    float: left;
+    font-size: 30px;
+    margin: 15px 0px 0px 0px;
+}
+#wrap #contents #bside ul {
+    float: right;
+    margin: 23px 0px 0px 0px;
+}
+#wrap #contents #bside ul li {
+    float: left;
+}
+/* 끝말 */
+#wrap #contents #bside ul li:after {
+    content: ">";
+    margin: 0px 10px 0px 10px;
+}
+#wrap #contents #bside #last:after {
+    content: "";
+    margin: 0px 3px 0px 0px;
+}
+/* 로그인바 끝 */
+/* 로그인박스 */
+#wrap #contents #login {
+    float: left;
+    border: 1px solid #000;
+    margin: 20px 0px 0px 170px;
+    padding: 40px 130px 30px 130px;
+}
+
+#wrap #contents #login .login-left {
+    /* border: 1px solid #000; */
+    display: inline-block;
+}
+/* 아이디 */
+#wrap #contents #login #login-id {
+    padding: 0px 10px 0px 41px;
+    margin: 0px 0px 50px 0px;
+}
+/* 비밀번호 */
+#wrap #contents #login #login-pas {
+    padding: 0px 10px 0px 25px;
+}
+
+#wrap #contetns #login .login-box {
+    padding: 10px 0px 10px 0px;
+}
+/* 로그인버튼 */
+#wrap #contents #login #login-but {
+    text-align: center;
+    margin: 25px 0px 5px 55px;
+    padding: 10px 35px;
+}
+/* 로그인박스 */

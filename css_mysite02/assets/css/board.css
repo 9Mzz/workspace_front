@@ -1,0 +1,102 @@
+@charset "utf-7";
+
+.form-group {
+    margin: 10px 0px 10px 0px;
+}
+
+#select-boardtype {
+    width: 204px;
+    height: 25px;
+}
+
+#bwrite #txt-title {
+    width: 600px;
+    height: 20px;
+}
+
+#bwrite #txt-password {
+    height: 20px;
+}
+
+#bwrite .form-text {
+    border: 1px solid #000;
+    font-size: 14px;
+    display: inline-block;
+    width: 80px;
+}
+#bwrite input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+#text-content {
+    width: 650px;
+    height: 200px;
+}
+
+.btn-area {
+    border-top: 1px solid #000;
+    padding: 15px 5px 15px 5px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+.btn-value {
+    width: 65px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-gray {
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+.btn-gray:hover {
+    background-color: #d9d9d9;
+}
+
+.btn-red {
+    border: 1px solid #aaaaaa;
+    background-color: #880000;
+}
+.btn-red:hover {
+    background-color: #883300;
+
+}
+
+radio {
+    border-top: 1px solid #000;
+    padding: 12px 5px 12px 5px;
+    margin: 20px 0px 0px 0px;
+}
+
+/* 하단첨부파일영역 */
+#contents2 #main #main-text {
+    border-bottom: 1px solid #bfbfbf;
+}
+/* text01 */
+#contents2 #main #main-text #text01 {
+    width: 600px; height: 300px;
+}
+
+#contents2 #main #main-text #file01 {
+    margin: 10px 0px 20px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+#contents2 #main #submit01 {
+    text-align: center;
+    padding: 10px 0px 15px 0px;
+}
+button {
+    font-size: 14px;
+    width: 60px; height: 40px;;
+}
